@@ -1,0 +1,108 @@
+.operator {
+  background-color: #FFA514;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0px 4px #E08A00, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.operator:hover{
+  transition: background-color 0.5s ease;
+  transition: box-shadow 0.1s ease;
+  background-color: #E08A00;
+  box-shadow: 0px 4px #A56300, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.operator:active {
+  box-shadow: 0px 0px #6b54d3;
+  padding-top: 18px;
+  transition: padding-top 0.4s ease;
+  transition: box-shadow 0.1s ease;
+
+}
+
+.calcDisplay {
+  height: 35px;
+  font-size: 32px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: solid 1px lightgrey;
+  width: 355px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  outline:none;
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.calcForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C6C6C6;
+  max-width: 400px;
+  min-height: 470px;
+  border-radius: 10px;
+  margin-left: 33%;
+  margin-top: 50px;
+  box-shadow: 0px 6px #A0A0A0, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.calcButton {
+  background-color:#1CB5ED;
+  border: none;
+  color: white;
+  padding: 20px 36px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline:none;
+  box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.calcButton:hover {
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.1s ease;
+  background-color:#0093C9;
+  box-shadow: 0px 4px #00668C, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.calcButton:active {
+  box-shadow: 0px 0px #6b54d3;
+  padding-top: 18px;
+  transition: padding-top 0.4s ease;
+  transition: box-shadow 0.1s ease;
+
+}
+
+.clear {
+  margin-left: 280px;
+  margin-top: 8px;
+}
+
+.clear:active {
+  box-shadow: 0px 0px #6b54d3;
+  padding-top: 18px;
+  margin-top: -8px;
+  transition: padding-top 0.4s ease;
+  transition: box-shadow 0.1s ease;
+}
